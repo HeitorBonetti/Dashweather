@@ -1,0 +1,51 @@
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.pagination a.active {
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+    color: white;
+    border: 1px solid #0056b3;
+}
+
+.select {
+    width: 20rem;
+}
+
+.input {
+    width: 20rem;
+    word-wrap: unset;
+}
+
+.col-md-6 {
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right:-10%;
+}
+
+.padbord {
+    padding:5px;
+    border: 1px solid black;
+}
+
+.sizefix {
+    width:20rem;
+}
